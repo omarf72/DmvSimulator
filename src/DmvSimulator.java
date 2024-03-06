@@ -32,7 +32,7 @@ public class DmvSimulator {
 
 
     }
-    System.out.println(" You dont have required paperwork ");
+    System.out.println("This isn't even close to the right stuff! Get out of here!");
 
     }
 }
