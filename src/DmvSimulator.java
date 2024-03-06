@@ -8,13 +8,13 @@ public class DmvSimulator {
 
         SecureRandom ran= new SecureRandom();
         
-        int num=ran.nextInt(100)+1;
+        int num=ran.nextInt(200)+1;
 
 
         System.out.println("Your number is "+num+" please wait until it is called.");
 
         for (int i = num + 1; ; i++) {
-            if (i > 100) {
+            if (i > 200) {
                 i = 1; // Wrap around if we reach 100
 
 
