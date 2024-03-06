@@ -32,7 +32,14 @@ public class DmvSimulator {
 
 
     }
-    System.out.println("This isn't even close to the right stuff! Get out of here!");
+    if(ran.nextInt(100)+1==1)
+    {
+        System.out.println("You have the correct papers");
+    }
+    else{
+        System.out.println("This isn't even close to the right stuff! Get out of here!");
+    }
+    
 
     }
 }
